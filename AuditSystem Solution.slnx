@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="AuditSystem.API/AuditSystem.API.csproj" Id="e05f1765-99ad-4dc9-80ac-286ed9030778" />
+  <Project Path="AuditSystem.Application/AuditSystem.Application.csproj" Id="dd7a8771-00f3-46be-92d1-272f6b78636a" />
+  <Project Path="AuditSystem.Domain/AuditSystem.Domain.csproj" />
+  <Project Path="AuditSystem.Infrastructure/AuditSystem.Infrastructure.csproj" Id="2004bc6e-e956-43b3-9398-e3ed41941820" />
+</Solution>
