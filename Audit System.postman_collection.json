@@ -1,0 +1,78 @@
+{
+  "info": {
+    "_postman_id": "095b3bb1-03eb-4f0d-a1f6-8293a5bffd6c",
+    "name": "Audit System",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "47195893"
+  },
+  "item": [
+    {
+      "name": "Enrollment API",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"userId\":2,\r\n    \"courseId\":2\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:7022/api/Enrollment",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7022",
+          "path": [
+            "api",
+            "Enrollment"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Enrollment",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"userId\":2,\r\n    \"courseId\":2\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:7022/api/Enrollment?userId=2",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7022",
+          "path": [
+            "api",
+            "Enrollment"
+          ],
+          "query": [
+            {
+              "key": "userId",
+              "value": "2",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
